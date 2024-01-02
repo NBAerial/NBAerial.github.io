@@ -212,6 +212,57 @@ header li a {
     margin: 4em;
 }
 
+/* Media Queries for Responsive Design */
+
+/* Tablets */
+@media (max-width: 768px) {
+    #services ul,
+    #services li {
+        margin: 1em;
+    }
+
+    #contact input,
+    #contact textarea {
+        width: 100%; /* Full width for smaller screens */
+    }
+
+    #contact button {
+        width: 100%; /* Full width for smaller screens */
+    }
+}
+
+/* Phones */
+@media (max-width: 480px) {
+    header img {
+        height: 50px;
+    }
+
+    header li {
+        margin-right: 1em;
+    }
+
+    #contact p {
+        margin: 2em;
+    }
+
+    #services ul,
+    #services li {
+        margin: 1em;
+    }
+
+    #contact input,
+    #contact textarea {
+        width: 100%; /* Full width for smaller screens */
+    }
+
+    #contact button {
+        width: 100%; /* Full width for smaller screens */
+    }
+
+    #about img {
+        width: 100%; /* Full width for smaller screens */
+    }
+}
 
 
 

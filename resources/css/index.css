@@ -2,13 +2,13 @@ html, body {
     background-color: white;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: auto;
 }
 
 /* header section */
 header {
     background-color: #333;
-    height: 75px;
+    height: 10%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -17,7 +17,7 @@ header {
 }
 
 header img {
-    height: 75px;
+    height: 100%;
 }
 
 header ul {
@@ -75,7 +75,8 @@ header li a {
 #contact {
     text-align: center;
     background-color: #fff;
-    padding: 20px;
+    margin-top: 1em;
+    padding: 2em;
 }
 
 #contact h2 {
@@ -86,7 +87,6 @@ header li a {
     border-radius: 40px;
     width: 200px;
     margin: 0 auto 20px;
-    margin-top: 1em;
 }
 
 #contact form {
@@ -119,6 +119,7 @@ header li a {
     background-color: rgb(9, 91, 154);
     color: #fff;
     padding: 12px;
+    margin-top: 12px;
     border: none;
     border-radius: 20px;
     cursor: pointer;
@@ -209,7 +210,35 @@ header li a {
 #services p{
     font-weight: bold;
     font-size: 20px;
-    margin: 4em;
+    margin-top: 3em;
+}
+
+/* footer section */
+footer {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    height: 8%;
+    display: flex;
+    justify-content: space-between; /* Align items with space between them */
+    align-items: center; /* Center items vertically */
+}
+
+footer #social-media i {
+    color: white;
+    padding-top: 5%;
+    padding-left: 1em;
+}
+
+footer p{
+    color: white;
+    font-weight: bold;
+    padding-left: 58em;
+}
+
+footer img {
+    padding-right: 1em; /* Adjust the padding as needed */
+    height: 100%;
 }
 
 

@@ -271,18 +271,18 @@ footer img {
 
 /* media query for phones */
 @media only screen and (max-width: 480px) and (orientation: portrait){
-    footer #social-media{
-        padding-left: 6em;
+    header li{
+        margin-right: 30px;
     }
 
-    footer p{
-        padding-left: 20em;
+    header li a{
+        padding: 10 15;
+        font-size: 12px;
     }
-
-    footer img{
-        padding-right: 10em;
+    
+    #title h1{
+        font-size: 18px;
     }
-
 }
 
 

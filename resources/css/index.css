@@ -270,7 +270,18 @@ footer img {
 }
 
 /* media query for phones */
-@media only screen and (min-width: 320px) and (max-width: 480px) and (orientation: portrait){
+@media only screen and (max-width: 480px) and (orientation: portrait){
+    footer #social-media{
+        padding-left: 6em;
+    }
+
+    footer p{
+        padding-left: 20em;
+    }
+
+    footer img{
+        padding-right: 10em;
+    }
 
 }
 

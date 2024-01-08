@@ -220,43 +220,110 @@ footer {
     background-color: #333;
     height: 8%;
     display: flex;
-    justify-content: space-between; /* Align items with space between them */
     align-items: center; /* Center items vertically */
 }
 
 footer #social-media i {
     color: white;
-    padding-top: 5%;
-    padding-left: 1em;
 }
 
 footer p{
     color: white;
     font-weight: bold;
-    padding-left: 58em;
 }
 
-footer img {
-    padding-right: 1em; /* Adjust the padding as needed */
-    height: 100%;
-}
+/* media query for phones */
+@media only screen and (min-width: 320px) and (max-width: 375px){
+    /* header section */
+    header{
+        padding: 5px;
+    }
+    
+    header li{
+        margin-right: 12px;
+    }
 
-/* media query for monitors */
-@media only screen and (min-width: 1601px) {
+    header li a{
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+    
+    /* main page */
+    #title h1{
+        font-size: 14px;
+    }
+
+    /* footer section */
+    footer{
+        justify-content: center;
+        flex-direction: column;
+        height: 10%;
+    }
+
+    footer #social-media{
+        display: flex;
+        padding-top: 6%;
+        gap: 20px;
+    }
+
+    footer #social-media i {
+        color: white;
+    }
+
     footer p{
-        padding-left: 83em;
+        font-size: 14px;
+        padding-top: 2%;
     }
 
-    #about{
-        height: 74%;
+    footer img{
+        height: 0;
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 480px){
+    /* header section */
+    header{
+        padding: 5px;
+    }
+    
+    header li{
+        margin-right: 16px;
     }
 
-    #services{
-        height: 74%;
+    header li a{
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+    
+    /* main page */
+    #title h1{
+        font-size: 16px;
     }
 
-    #contact{
-        height: 74%;
+    /* footer section */
+    footer{
+        justify-content: center;
+        flex-direction: column;
+        height: 10%;
+    }
+
+    footer #social-media{
+        display: flex;
+        padding-top: 6%;
+        gap: 20px;
+    }
+
+    footer #social-media i {
+        color: white;
+    }
+
+    footer p{
+        font-size: 14px;
+        padding-top: 2%;
+    }
+
+    footer img{
+        height: 0;
     }
 }
 
@@ -269,67 +336,65 @@ footer img {
 
 }
 
-/* media query for phones */
-@media only screen and (min-width: 0px) and (max-width: 320px){
-    header{
-        padding: 5px;
-    }
-    
-    header li{
-        margin-right: 12px;
+/* media query for computers */
+@media only screen and (min-width: 1025px) and (max-width: 1600px){
+    /* footer section */
+    footer{
+        justify-content: space-between;
     }
 
-    header li a{
-        padding: 10px 10px;
-        font-size: 10px;
-    }
-    
-    #title h1{
-        font-size: 14px;
+    footer #social-media i {
+        color: white;
+        padding-top: 5%;
+        padding-left: 1em;
     }
 
-    footer #social-media{
-        display: flex;
+    footer p{
+        padding-left: 58em;
+    }
+
+    footer img {
+        padding-right: 1em; /* Adjust the padding as needed */
+        height: 100%;
     }
 }
 
-@media only screen and (min-width: 321px) and (max-width: 375px){
-    header{
-        padding: 5px;
-    }
-    
-    header li{
-        margin-right: 16px;
+/* media query for monitors */
+@media only screen and (min-width: 1601px) {
+    #about{
+        height: 74%;
     }
 
-    header li a{
-        padding: 10px 15px;
-        font-size: 12px;
+    #services{
+        height: 74%;
+    }
+
+    #contact{
+        height: 74%;
+    }
+
+    /* footer section */
+    footer{
+        justify-content: space-between;
+    }
+
+    footer #social-media i {
+        color: white;
+        padding-top: 5%;
+        padding-left: 1em;
     }
     
-    #title h1{
-        font-size: 16px;
+    footer p{
+        padding-left: 83em;
+    }
+
+    footer img {
+        padding-right: 1em;
+        height: 100%;
     }
 }
 
-@media only screen and (min-width: 376px) and (max-width: 480px){
-    header{
-        padding: 5px;
-    }
-    
-    header li{
-        margin-right: 20px;
-    }
 
-    header li a{
-        padding: 10px 15px;
-        font-size: 12px;
-    }
-    
-    #title h1{
-        font-size: 18px;
-    }
-}
 
 
 

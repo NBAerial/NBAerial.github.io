@@ -270,13 +270,59 @@ footer img {
 }
 
 /* media query for phones */
-@media only screen and (max-width: 480px) and (orientation: portrait){
+@media only screen and (min-width: 0px) and (max-width: 320px){
+    header{
+        padding: 5px;
+    }
+    
     header li{
-        margin-right: 30px;
+        margin-right: 12px;
     }
 
     header li a{
-        padding: 10 15;
+        padding: 10px 10px;
+        font-size: 10px;
+    }
+    
+    #title h1{
+        font-size: 14px;
+    }
+
+    footer #social-media{
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px){
+    header{
+        padding: 5px;
+    }
+    
+    header li{
+        margin-right: 16px;
+    }
+
+    header li a{
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+    
+    #title h1{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 480px){
+    header{
+        padding: 5px;
+    }
+    
+    header li{
+        margin-right: 20px;
+    }
+
+    header li a{
+        padding: 10px 15px;
         font-size: 12px;
     }
     

@@ -233,7 +233,7 @@ footer p{
 }
 
 /* media query for phones */
-@media only screen and (min-width: 320px) and (max-width: 375px){
+@media only screen and (min-width: 320px) and (max-width: 376px){
     /* header section */
     header{
         padding: 5px;
@@ -251,6 +251,28 @@ footer p{
     /* main page */
     #title h1{
         font-size: 14px;
+    }
+
+    /* about section */
+    #about img{
+        height: 275px;
+        width: 275px;
+    }
+
+    /* service section */
+    #services li{
+        padding: 10px 10px;
+        font-size: 16px;
+    }
+
+    /* contact section */
+    #contact input,
+    #contact textarea {
+        width: 80%;
+    }
+
+    #contact button{
+        width: 30%;
     }
 
     /* footer section */
@@ -280,7 +302,7 @@ footer p{
     }
 }
 
-@media only screen and (min-width: 376px) and (max-width: 480px){
+@media only screen and (min-width: 377px) and (max-width: 480px){
     /* header section */
     header{
         padding: 5px;
@@ -298,6 +320,22 @@ footer p{
     /* main page */
     #title h1{
         font-size: 16px;
+    }
+
+    /* about section */
+    #about img{
+        height: 300px;
+        width: 300px;
+    }
+
+    /* contact section */
+    #contact input,
+    #contact textarea {
+        width: 80%;
+    }
+
+    #contact button{
+        width: 25%;
     }
 
     /* footer section */

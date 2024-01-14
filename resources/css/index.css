@@ -157,7 +157,7 @@ header li a {
 }
 
 #about p {
-    margin-top: 4em;
+    margin-top: 2em;
     padding: 1em;
     width: 80%;
     font-size: 18px;
@@ -210,7 +210,7 @@ header li a {
 #services p{
     font-weight: bold;
     font-size: 20px;
-    margin-top: 3em;
+    margin-top: 1.5em;
 }
 
 /* footer section */
@@ -366,12 +366,175 @@ footer p{
 }
 
 /* media query for tablets */
-@media only screen and (max-width: 768px){ /* in portrait orientation */
+@media only screen and (min-width: 481px) and (max-width: 768px){ /* portrait orientation */
+    /* height for each section */
+    #about{
+        height: 91vh;
+    }
+
+    #services{
+        height: 91vh;
+    }
+
+    #contact{
+        height: 91vh;
+    }
+
+    /* header section */
+    header{
+        padding: 5px;
+    }
     
+    header li{
+        margin-right: 16px;
+    }
+
+    header li a{
+        padding: 10px 20px;
+    }
+
+    /* main page */
+    #title h1{
+        font-size: 22px;
+    }
+
+    /* about section */
+    #about p{
+        margin-top: 2em;
+        width: 60%;
+    }
+
+    /* service section */
+    #services li{
+        margin: 2em;
+    }
+
+    #services p{
+        width: 60%;
+    }
+
+    /*contact section */
+    #contact textarea{
+        height: 45vh;
+    }
+
+    #contact input,
+    #contact textarea {
+        width: 50%;
+    }
+
+    #contact button{
+        width: 12%;
+    }
+
+    /* footer section */
+    footer{
+        justify-content: space-between;
+    }
+
+    footer #social-media{
+        display: flex;
+    }
+
+    footer #social-media i {
+        color: white;
+        padding-top: 5%;
+        padding-left: 1em;
+    }
+
+    footer p{
+        margin-left: auto;
+        padding-right: 1em;
+    }
+
+    footer img{
+        height: 100%;
+        padding-right: 1em;
+    }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){ /* landscape orientation */
+/* meida query for surface duo */
+@media only screen and (width: 540px){
+    #contact button{
+        width: 18%;
+    }
+}
 
+@media only screen and (min-width: 769px) and (max-width: 1024px){ /* landscape orientation */
+    /* height for each section */
+    #about{
+        height: 91vh;
+    }
+
+    #services{
+        height: 91vh;
+    }
+
+    #contact{
+        height: 91vh;
+    }
+
+    /* header section */
+    header{
+        padding: 5px;
+    }
+    
+    header li{
+        margin-right: 20px;
+    }
+
+    header li a{
+        padding: 10px 20px;
+    }
+
+    /* main page */
+    #title h1{
+        font-size: 26px;
+    }
+
+    /* service section */
+    #services p{
+        width: 60%;
+    }
+
+    /*contact section */
+    #contact textarea{
+        height: 45vh;
+    }
+
+    #contact input,
+    #contact textarea {
+        width: 50%;
+    }
+
+    #contact button{
+        width: 10%;
+    }
+
+    /* footer section */
+    footer{
+        justify-content: space-between;
+    }
+
+    footer #social-media{
+        display: flex;
+    }
+
+    footer #social-media i {
+        color: white;
+        padding-top: 5%;
+        padding-left: 1em;
+    }
+
+    footer p{
+        margin-left: auto;
+        padding-right: 1em;
+    }
+
+    footer img{
+        height: 100%;
+        padding-right: 1em;
+    }
 }
 
 /* media query for computers */
@@ -381,6 +544,10 @@ footer p{
         justify-content: space-between;
     }
 
+    footer #social-media{
+        display: flex;
+    }
+
     footer #social-media i {
         color: white;
         padding-top: 5%;
@@ -388,27 +555,49 @@ footer p{
     }
 
     footer p{
-        padding-left: 58em;
+        margin-left: auto;
+        padding-right: 1em;
     }
 
-    footer img {
-        padding-right: 1em; /* Adjust the padding as needed */
+    footer img{
         height: 100%;
+        padding-right: 1em;
     }
 }
 
 /* media query for monitors */
 @media only screen and (min-width: 1601px) {
+    /* height for each section */
     #about{
-        height: 74%;
+        height: 91vh;
     }
 
     #services{
-        height: 74%;
+        height: 91vh;
     }
 
     #contact{
-        height: 74%;
+        height: 91vh;
+    }
+
+    /* about section */
+    #about p{
+        margin-top: 4em;
+        width: 60%;
+    }
+
+    /* service section */
+    #services li{
+        margin: 2em;
+    }
+
+    #services p{
+        width: 30%;
+    }
+
+    /*contact section */
+    #contact textarea{
+        height: 45vh;
     }
 
     /* footer section */
@@ -423,7 +612,8 @@ footer p{
     }
     
     footer p{
-        padding-left: 83em;
+        margin-left: auto;
+        padding-right: 1em;
     }
 
     footer img {

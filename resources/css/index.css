@@ -46,7 +46,7 @@ header li a {
 }
 
 
-/* title section */
+/* main section */
 #title {
     position: relative;
     display: flex;
@@ -71,6 +71,42 @@ header li a {
     object-fit: cover; 
     z-index: -1;
 }
+
+#information {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 60vh;
+    background-color: white; 
+}
+
+#information h2 {
+    color: white;
+    padding: 10px 20px;
+    background-color: rgb(9, 91, 154);
+    border: 1px solid rgb(9, 91, 154);
+    border-radius: 40px;
+    width: fit-content;
+    margin-top: 3vh; 
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+    overflow: hidden;
+    margin-top: 4vh; 
+    margin-bottom: 4vh;
+}
+
+.video-container iframe {
+    width: 58vh;
+    height: 38vh;
+}
+
 
 /* contact section */
 #contact {
@@ -254,6 +290,21 @@ footer p{
         font-size: 14px;
     }
 
+    #information h2 {
+        font-size: 12px;
+        margin-top: 3vh;
+    }
+
+    .video-container {
+        margin-top: 3vh; 
+        margin-bottom: 3vh;
+    }
+    
+    .video-container iframe {
+        width: 39vh;
+        height: 42vh;
+    }
+
     /* about section */
     #about img{
         height: 275px;
@@ -321,6 +372,21 @@ footer p{
     /* main page */
     #title h1{
         font-size: 16px;
+    }
+
+    #information h2 {
+        font-size: 14px;
+        margin-top: 3vh;
+    }
+
+    .video-container {
+        margin-top: 3vh; 
+        margin-bottom: 3vh;
+    }
+    
+    .video-container iframe {
+        width: 39vh;
+        height: 44vh;
     }
 
     /* about section */
@@ -401,6 +467,20 @@ footer p{
         font-size: 22px;
     }
 
+    #information h2 {
+        margin-top: 3vh;
+    }
+
+    .video-container {
+        margin-top: 3vh; 
+        margin-bottom: 3vh;
+    }
+    
+    .video-container iframe {
+        width: 56vh;
+        height: 42vh;
+    }
+
     /* about section */
     #about p{
         margin-top: 2em;
@@ -453,7 +533,7 @@ footer p{
 }
 
 /* meida query for surface duo */
-@media only screen and (width: 540px){
+@media only screen and (width: 540px) {
     #contact button{
         width: 18%;
     }
